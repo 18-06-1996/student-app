@@ -25,12 +25,14 @@ export function BaseApp({title,children}){
         </div>
 
         <div className='children'> {children}
+       
         <footer className='footer'>
             <div>Copyright @ 2023</div>
             <div>mobile no-848***134</div>
             <div>karthick18696@gmail.com</div>
         </footer>
         </div>
+       
         </div>
     )
 }
